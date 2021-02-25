@@ -1,0 +1,51 @@
+.content
+{
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7em;
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+.about
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.photo
+{
+    width: 29.5%;
+    order: 2;
+}
+
+.bio
+{
+    width: 69%;
+    order: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.position, .contacts
+{
+    padding-top: 0.6em;
+}
+
+.name
+{
+    font-size: 30pt;
+    font-weight: 700; 
+}
+
+.mail-encrypted:link, .mail-encrypted:visited, .mail-encrypted:hover 
+{
+    font-weight: 600; 
+    color: #0076df;
+    text-decoration: none;
+}
