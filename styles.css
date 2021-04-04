@@ -14,17 +14,18 @@
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
+    overflow: auto;
 }
 
 .photo
 {
-    width: 29.5%;
+    width: 27%;
     order: 2;
 }
 
 .bio
 {
-    width: 69%;
+    width: 67%;
     order: 1;
 
     display: flex;
@@ -48,4 +49,9 @@
     font-weight: 600; 
     color: #0076df;
     text-decoration: none;
+}
+
+.CV
+{
+    margin-top: 0.6em;
 }
