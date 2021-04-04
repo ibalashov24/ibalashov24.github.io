@@ -1,6 +1,6 @@
 .content
 {
-    max-width: 500px;
+    max-width: 600px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 7em;
@@ -19,13 +19,14 @@
 
 .photo
 {
-    width: 27%;
+    width: 40%;
+    height: 10%;
     order: 2;
 }
 
 .bio
 {
-    width: 67%;
+    width: 59%;
     order: 1;
 
     display: flex;
