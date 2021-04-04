@@ -52,7 +52,12 @@
     text-decoration: none;
 }
 
-.CV
+.social
 {
     margin-top: 0.6em;
+}
+
+.social-link
+{
+    padding-right: 0.6em;
 }
